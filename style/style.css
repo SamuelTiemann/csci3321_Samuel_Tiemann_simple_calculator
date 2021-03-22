@@ -1,0 +1,84 @@
+#container{
+    display: grid;
+    width: 300px;
+    margin: auto;
+    background-color: #61429d;
+    border-radius: 5px;
+    padding: 10px;
+    grid-gap: 5px;
+    grid-template-areas: 
+        'result result result result'
+        'add subtract multiply divide'
+        'digit7 digit8 digit9 equal'
+        'digit4 digit5 digit6 equal'
+        'digit1 digit2 digit3 equal'
+        'clear clear digit0 equal';
+}
+#display{
+    border-radius: 5 px;
+    height: 45px;
+    text-align: right;
+    background-color: white;
+    line-height: 45px;
+    grid-area: result;
+}
+.key{
+    background-color: white;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.plus{
+    grid-area: add;
+}
+.subtract{
+    grid-area: subtract;
+}
+.multiply{
+    grid-area: multiply;
+}
+.divide{
+    grid-area: divide;
+}
+.nine{
+    grid-area: digit9;
+}
+.eight{
+    grid-area: digit8;
+}
+.seven{
+    grid-area: digit7;
+}
+.six{
+    grid-area: digit6;
+}
+.five{
+    grid-area: digit5;
+}
+.four{
+    grid-area: digit4;
+}
+.three{
+    grid-area: digit3;
+}
+.two{
+    grid-area: digit2;
+}
+.one{
+    grid-area: digit1;
+}
+.zero{
+    grid-area: digit0;
+}
+.AC{
+    grid-area: clear;
+}
+.equal{
+    grid-area: equal;
+    background-color: honeydew;
+    height: 215px;
+    line-height: 210px;
+}

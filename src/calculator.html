@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <script src="../script/script.js"></script>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="display"></div>
+        <div class="key plus" onclick="updateDisplay('+')">+</div>
+        <div class="key subtract" onclick="updateDisplay('-')">-</div>
+        <div class="key multiply" onclick="updateDisplay('*')">*</div>
+        <div class="key divide" onclick="updateDisplay('/')">/</div>
+        <div class="key seven" onclick="updateDisplay('7')">7</div>
+        <div class="key eight" onclick="updateDisplay('8')">8</div>
+        <div class="key nine" onclick="updateDisplay('9')">9</div>
+        <div class="key four" onclick="updateDisplay('4')">4</div>
+        <div class="key five" onclick="updateDisplay('5')">5</div>
+        <div class="key six" onclick="updateDisplay('6')">6</div>
+        <div class="key one" onclick="updateDisplay('1')">1</div>
+        <div class="key two" onclick="updateDisplay('2')">2</div>
+        <div class="key three" onclick="updateDisplay('3')">3</div>
+        <div class="key AC" onclick="updateDisplay('')">AC</div>
+        <div class="key zero" onclick="updateDisplay('0')">0</div>
+        <div class="key equal" onclick="calcAnswer()">=</div>
+    </div>
+</body>
+</html>
